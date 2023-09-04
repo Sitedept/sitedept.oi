@@ -94,7 +94,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #03466e;
+  background-color: #000;
 }
 
 .overlay-mf {
@@ -166,7 +166,10 @@ a:hover {
   background-color: #03466e;
   margin: 0 auto;
 }
-
+.btn-primary {
+  background: #03466e;
+  border-color: #03466e;
+}
 /*--/ Title Left /--*/
 .title-box-2 {
   margin-bottom: 3rem;
