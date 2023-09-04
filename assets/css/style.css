@@ -113,13 +113,8 @@ a:hover {
   margin-top: 3rem;
 }
 
-.form-footer {
-  display: none!important;
-}
-.hcaptcha-submit-button {
-  background: #03466e!important;
-  border-color: #03466e!important;
-}
+
+
 .display-table {
   width: 100%;
   height: 100%;
