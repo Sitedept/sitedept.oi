@@ -813,6 +813,10 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+a#myBtn {
+  cursor: pointer;
+}
+
 #more li {
   font-size: 1.25rem;
   font-weight: 300;
