@@ -859,7 +859,9 @@ section#about .box-shadow-full {
   background-color: #0078ff;
   box-shadow: 0 0 0 10px #cde1f8;
 }
-
+section#services .row {
+  justify-content: center;
+}
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
