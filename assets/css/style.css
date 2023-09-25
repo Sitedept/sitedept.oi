@@ -1384,7 +1384,7 @@ section#services .row {
   }
 }
 
-@media (min-width: 575px) {
+@media (max-width: 575px) {
 .section-counter .col-sm-3 {
   flex: 0 0 auto;
   width: 47%;
