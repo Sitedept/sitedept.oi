@@ -1384,6 +1384,16 @@ section#services .row {
   }
 }
 
+@media (min-width: 575px) {
+.section-counter .col-sm-3 {
+  flex: 0 0 auto;
+  width: 47%;
+}
+.section-counter .row {
+  row-gap: 25px;
+  justify-content: space-evenly;
+}
+}
 .box-comments .list-comments .comment-details {
   display: table-cell;
   vertical-align: top;
