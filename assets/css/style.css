@@ -828,10 +828,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 #more li {
-  font-size: 1.25rem;
-  font-weight: 300;
+  margin-bottom: 10px;
 }
-
+#more li strong {
+  font-weight: bold;
+}
 .about-mf .about-img img {
   margin-left: 10px;
 }
@@ -940,7 +941,9 @@ section#services .row {
   font-size: 2rem;
   margin-bottom: 0;
 }
-
+.lead {
+  font-size: 1rem!important;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
