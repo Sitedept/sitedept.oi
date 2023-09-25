@@ -823,7 +823,9 @@ a#myBtn {
   font-weight: bold;
   cursor: pointer;
 }
-
+body {
+  color: #000;
+}
 #more li {
   font-size: 1.25rem;
   font-weight: 300;
