@@ -1394,6 +1394,12 @@ section#services .row {
   justify-content: space-evenly;
 }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+section#about .col-md-6:first-child .row> div {
+  width: 100%;
+}
+}
 .box-comments .list-comments .comment-details {
   display: table-cell;
   vertical-align: top;
