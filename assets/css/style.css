@@ -910,6 +910,7 @@ section#services .row {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  font-weight: 600;
 }
 
 .service-box .s-description {
@@ -920,7 +921,7 @@ section#services .row {
 }
 
 .ico-circle svg {
-  fill: #000;
+  fill: #1e1e1e;
 }
 /*--------------------------------------------------------------
 # Counter
