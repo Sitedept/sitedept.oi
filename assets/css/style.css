@@ -915,7 +915,13 @@ section#services .row {
 .service-box .s-description {
   color: #4e4e4e;
 }
+.service-box:hover .ico-circle svg {
+  fill: #cde1f8;
+}
 
+.ico-circle svg {
+  fill: #03466e;
+}
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
