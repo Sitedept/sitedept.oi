@@ -916,11 +916,11 @@ section#services .row {
   color: #4e4e4e;
 }
 .service-box:hover .ico-circle svg {
-  fill: #cde1f8;
+  fill: #fff;
 }
 
 .ico-circle svg {
-  fill: #03466e;
+  fill: #000;
 }
 /*--------------------------------------------------------------
 # Counter
