@@ -1507,3 +1507,10 @@ footer .credits a {
   background-color: #000000;
   border-color: #000000;
 }
+div#contact {
+  border-radius: 10px;
+}
+.work-box {
+  border-radius: 10px;
+  overflow: hidden;
+}
