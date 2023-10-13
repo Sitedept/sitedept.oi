@@ -877,6 +877,7 @@ section#about .box-shadow-full {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .service-box:hover .ico-circle {
