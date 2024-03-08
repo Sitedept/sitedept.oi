@@ -828,7 +828,8 @@ a#myBtn {
 }
 body {
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Rajdhani', sans-serif;
   font-size: .9rem!important;
 }
 #more li {
