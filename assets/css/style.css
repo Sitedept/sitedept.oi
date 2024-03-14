@@ -529,7 +529,7 @@ a:hover {
 
 .navbar > ul > li > a:before {
   content: "";
-  position: absolute;
+  position: absolute; 
   width: 100%;
   height: 2px;
   bottom: -6px;
