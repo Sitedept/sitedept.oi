@@ -719,6 +719,14 @@ a:hover {
   display: block;
 }
 
+.fixed-top {
+  position: unset!important;
+  background: #fff;
+}
+.fixed-top.header-scrolled {
+  position: fixed;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
