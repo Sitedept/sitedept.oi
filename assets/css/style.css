@@ -546,7 +546,7 @@ a:hover {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #fff;
+  color: #000;
 }
 
 .navbar .dropdown ul {
