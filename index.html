@@ -728,53 +728,72 @@
                     <div>
                       <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
                        
-                       <script src="https://smtpjs.com/v3/smtp.js">
-                      </script>
-                      <script>
-                        function sendEmil(){
-                        Email.send({
-                              SecureToken : "d615cafb-35f3-4c81-b60d-11874ed387e5",
-                              To : 'them@website.com',
-                              From : "you@isp.com",
-                              Subject : "This is the subject",
-                              Body : "And this is the body"
-                          }).then(
-                            message => alert(message)
-                          );
-                        }
-                      </script>
-                       <form onsubmit="sendEmil()">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        <script src="https://smtpjs.com/v3/smtp.js"></script>
+                        <script>
+                          function sendEmail(event) {
+                            event.preventDefault(); // Prevent form submission
+                        
+                            // Get form values
+                            var name = document.getElementById("name").value;
+                            var email = document.getElementById("email").value;
+                            var subject = document.getElementById("subject").value;
+                            var message = document.getElementById("message").value;
+                        
+                            // Send email using SMTP.js
+                            Email.send({
+                              SecureToken: "d615cafb-35f3-4c81-b60d-11874ed387e5",
+                              To: 'sahilgautam62107@gmail.com',
+                              From: email,
+                              Subject: subject,
+                              Body: "Name: " + name + "<br>Email: " + email + "<br>Message: " + message
+                            }).then(function (message) {
+                              // Show success message
+                              document.querySelector(".sent-message").style.display = "block";
+                              // Clear form fields
+                              document.getElementById("name").value = "";
+                              document.getElementById("email").value = "";
+                              document.getElementById("subject").value = "";
+                              document.getElementById("message").value = "";
+                            }).catch(function (error) {
+                              // Show error message
+                              document.querySelector(".error-message").style.display = "block";
+                            });
+                          }
+                        </script>
+                        
+                        <form onsubmit="sendEmail(event)">
+                          <div class="row">
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                              </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                              </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
+                              </div>
+                            </div>
+                            <div class="col-md-12 text-center my-3">
+                              <div class="loading" style="display: none;">Loading</div>
+                              <div class="error-message" style="display: none;">An error occurred. Please try again later.</div>
+                              <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                              <button type="submit" class="button button-a button-big button-rounded">Send Message</button>
                             </div>
                           </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                     </form>
+                        </form>
+                        
                     
                     
                     </div>
