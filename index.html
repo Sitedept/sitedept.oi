@@ -751,7 +751,7 @@
                               Body: "<i>This Email Received From Sitedept Website</i><br>Name: " + name + "<br>Email: " + email + "<br>Message: " + message
                             }).then(function (message) {
                               // Show success message
-                              document.querySelector(".sent-message").style.display = "block";
+                              document.querySelector(".sent-message").style.display = "flex";
                               // Clear form fields
                               document.getElementById("name").value = "";
                               document.getElementById("email").value = "";
@@ -759,7 +759,7 @@
                               document.getElementById("message").value = "";
                             }).catch(function (error) {
                               // Show error message
-                              document.querySelector(".error-message").style.display = "block";
+                              document.querySelector(".error-message").style.display = "flex";
                             });
                           }
                         </script>
