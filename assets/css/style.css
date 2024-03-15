@@ -543,7 +543,7 @@ a:hover {
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
   visibility: visible;
   width: 80%;
-}
+} 
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
   color: #000;
