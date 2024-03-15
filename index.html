@@ -726,7 +726,24 @@
                       </h5>
                     </div>
                     <div>
-                      <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form"> -->
+                       
+                       <script src="https://smtpjs.com/v3/smtp.js">
+                      </script>
+                      <script>
+                        function sendEmil(){
+                        Email.send({
+                              SecureToken : "d615cafb-35f3-4c81-b60d-11874ed387e5",
+                              To : 'them@website.com',
+                              From : "you@isp.com",
+                              Subject : "This is the subject",
+                              Body : "And this is the body"
+                          }).then(
+                            message => alert(message)
+                          );
+                        }
+                      </script>
+                       <form onsubmit="sendEmil()">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -757,9 +774,8 @@
                             <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
                           </div>
                         </div>
-                      </form> -->
+                     </form>
                     
-                      <script type="text/javascript" src="https://form.jotform.com/jsform/232466356153457"></script>
                     
                     </div>
                   </div>
