@@ -548,9 +548,7 @@ a:hover {
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
   color: #000;
 }
-.fixed-top.header-scrolled .navbar a {
-  color: #fff;
-}
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -602,6 +600,10 @@ a:hover {
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+.fixed-top.header-scrolled .navbar a {
+  color: #fff;
 }
 
 @media (max-width: 1366px) {
