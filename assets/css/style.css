@@ -759,6 +759,13 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.desk_show {
+  display: block;
+}
+.mob_show {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .hero .hero-title {
     font-size: 3rem;
@@ -797,6 +804,14 @@ a:hover {
   .hero-single .hero-title {
     font-size: 3.5rem;
   }
+}
+@media (max-width: 991px) {
+.desk_show {
+  display: none;
+}
+.mob_show {
+  display: block;
+}
 }
 
 .hero-single .breadcrumb {
