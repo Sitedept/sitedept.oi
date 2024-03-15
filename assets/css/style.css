@@ -723,7 +723,7 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   color: #fff;
   /* padding-top: 80px; */
@@ -812,6 +812,10 @@ a:hover {
 .mob_show {
   display: block;
 }
+.hero .hero-content {
+  top: 34%;
+}
+
 }
 
 .hero-single .breadcrumb {
