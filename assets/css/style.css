@@ -548,7 +548,9 @@ a:hover {
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
   color: #000;
 }
-
+.fixed-top.header-scrolled .navbar a {
+  color: #fff;
+}
 .navbar .dropdown ul {
   display: block;
   position: absolute;
