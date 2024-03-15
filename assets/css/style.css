@@ -1206,7 +1206,11 @@ section#services .row {
   text-align: center;
   padding: 15px;
 }
-
+.error-message, .sent-message, .loading {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 .php-email-form .loading:before {
   content: "";
   display: inline-block;
