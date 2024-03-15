@@ -720,7 +720,7 @@ a:hover {
 }
 
 .fixed-top {
-  position: unset!important;
+  position: unset;
   background: #fff;
 }
 .fixed-top.header-scrolled {
