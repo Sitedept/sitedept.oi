@@ -735,10 +735,12 @@ a:hover {
 }
 
 .hero .hero-content {
-  text-align: left;
-  position: absolute;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
 }
-
 .hero .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
