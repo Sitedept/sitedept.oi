@@ -1647,12 +1647,12 @@ div#contact {
 
 @font-face {
   font-family: 'Oakes Grotesk';
-  src: url('assets/css/fonts/oakes-grotesk.ttf') format('truetype');
+  src: url('fonts/oakes-grotesk.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Made Outer Sans';
-  src: url('assets/css/fonts/Made-Outer-Sans.otf') format('opentype');
+  src: url('fonts/Made-Outer-Sans.otf') format('opentype');
 }
 
 
