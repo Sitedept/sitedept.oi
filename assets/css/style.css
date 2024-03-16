@@ -752,7 +752,7 @@ img.img-fluid.fixed_logo {
   background: #fff;
 }
 .fixed-top.header-scrolled {
-  position: fixed;
+  position: sticky;
 }
 
 /*--------------------------------------------------------------
