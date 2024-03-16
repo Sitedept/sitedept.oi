@@ -1642,3 +1642,67 @@ div#contact {
   border-radius: 10px;
   overflow: hidden;
 }
+
+
+
+@font-face {
+  font-family: Oakes grotesk;
+  src: url("assets/fonts/oakes-grotesk.ttf")
+}
+
+@font-face {
+  font-family: Made Outer Sans;
+  src: url("assets/fonts/Made-Outer-Sans.otf")
+}
+
+body,.oakes {
+  font-family: Oakes grotesk,sans-serif!important
+}
+
+.made,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: Made Outer Sans,sans-serif!important
+}
+
+.w_1 {
+  font-weight: 100
+}
+
+.w_2 {
+  font-weight: 200
+}
+
+.w_3 {
+  font-weight: 300
+}
+
+.w_4 {
+  font-weight: 400
+}
+
+.w_5 {
+  font-weight: 500
+}
+
+.w_6 {
+  font-weight: 600
+}
+
+.w_7 {
+  font-weight: 700
+}
+
+.w_8 {
+  font-weight: 800
+}
+
+.w_9 {
+  font-weight: 900
+}
+
+.w_bold {
+  font-weight: 700
+}
+
+.f_14 {
+  font-size: 14px
+}
