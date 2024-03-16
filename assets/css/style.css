@@ -1613,7 +1613,9 @@ section#about .col-md-6:first-child .row> div {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
+footer h6, footer a {
+  color: #fff;
+}
 footer {
   text-align: center;
   color: #fff;
