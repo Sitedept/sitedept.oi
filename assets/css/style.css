@@ -530,6 +530,14 @@ img.img-fluid.fixed_logo {
   padding: 10px 0 10px 30px;
 }
 
+.color-base {
+  color: #03466e;
+}
+
+p.color-base {
+  margin-bottom: 6px;
+}
+
 .navbar a {
   display: flex;
   align-items: center;
