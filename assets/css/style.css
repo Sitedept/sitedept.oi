@@ -464,6 +464,9 @@ a:hover {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+.mb-4 {
+  margin-bottom: 1rem!important;
+}
 .main-button-container {
   position: relative;
   left: 4px;
