@@ -455,7 +455,7 @@ a:hover {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 #header .logo {
@@ -471,7 +471,7 @@ a:hover {
 }
 
 #header .logo img {
-  max-height: 125px;
+  max-height: 59px;
 }
 
 #header.header-scrolled {
