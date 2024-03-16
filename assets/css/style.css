@@ -1646,14 +1646,15 @@ div#contact {
 
 
 @font-face {
-  font-family: Oakes grotesk;
-  src: url("assets/fonts/oakes-grotesk.ttf")
+  font-family: 'Oakes Grotesk';
+  src: url('assets/fonts/oakes-grotesk.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: Made Outer Sans;
-  src: url("assets/fonts/Made-Outer-Sans.otf")
+  font-family: 'Made Outer Sans';
+  src: url('assets/fonts/Made-Outer-Sans.otf') format('opentype');
 }
+
 
 body,.oakes {
   font-family: Oakes grotesk,sans-serif!important
