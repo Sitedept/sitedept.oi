@@ -542,7 +542,7 @@ img.img-fluid.fixed_logo {
   transition: 0.3s;
   letter-spacing: 0.4px;
   position: relative;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .navbar a i {
