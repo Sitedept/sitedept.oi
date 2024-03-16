@@ -1667,10 +1667,10 @@ div#contact {
 }
 
 
-body,.oakes {
-  font-family: 'Oakes grotesk','sans-serif'!important
+body, .oakes {
+  font-family: 'Oakes grotesk','sans-serif'!important;
+  letter-spacing: 0.1rem;
 }
-
 .made,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
   font-family: 'Made Outer Sans','sans-serif'!important
 }
