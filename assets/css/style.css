@@ -466,6 +466,18 @@ a:hover {
   letter-spacing: 1px;
 }
 
+img.img-fluid.fixed_logo {
+  display: none;
+}
+
+.fixed-top.header-scrolled img.img-fluid.default_logo {
+  display: none;
+}
+
+.fixed-top.header-scrolled img.img-fluid.fixed_logo {
+  display: block;
+}
+
 #header .logo a {
   color: #fff;
 }
