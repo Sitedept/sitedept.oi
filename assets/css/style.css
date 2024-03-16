@@ -1241,7 +1241,12 @@ section#services .row {
   border-radius: 50%;
   line-height: 1.6;
 }
-
+.contact_btn {
+  display: none;
+}
+.mob_show {
+  display: block;
+}
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
@@ -1252,6 +1257,12 @@ section#services .row {
   .testimonial-box .description {
     padding: 0 8rem;
   }
+  .contact_btn {
+    display: block;
+}
+.mob_show {
+  display: none;
+}
 }
 
 @media (min-width: 1200px) {
