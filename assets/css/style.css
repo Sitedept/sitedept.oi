@@ -491,6 +491,18 @@ img.img-fluid.fixed_logo {
   padding: 12px 0;
 }
 
+.alert.alert-primary, .alert.alert-primary p {
+  margin: 0;
+}
+
+.alert.alert-primary {
+  padding: 8px!important;
+  text-align: center;
+  background: #08aeed;
+  border: none;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
