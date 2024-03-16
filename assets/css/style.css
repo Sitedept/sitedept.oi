@@ -1647,21 +1647,21 @@ div#contact {
 
 @font-face {
   font-family: 'Oakes Grotesk';
-  src: url('assets/fonts/oakes-grotesk.ttf') format('truetype');
+  src: url('assets/css/fonts/oakes-grotesk.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Made Outer Sans';
-  src: url('assets/fonts/Made-Outer-Sans.otf') format('opentype');
+  src: url('assets/css/fonts/Made-Outer-Sans.otf') format('opentype');
 }
 
 
 body,.oakes {
-  font-family: Oakes grotesk,sans-serif!important
+  font-family: 'Oakes grotesk','sans-serif'!important
 }
 
 .made,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-  font-family: Made Outer Sans,sans-serif!important
+  font-family: 'Made Outer Sans','sans-serif'!important
 }
 
 .w_1 {
