@@ -672,7 +672,7 @@ p.color-base {
 }
 
 .fixed-top.header-scrolled .navbar a {
-  color: #fff;
+  color: #000000;
 }
 
 @media (max-width: 1366px) {
@@ -792,6 +792,9 @@ p.color-base {
 
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
+}
+nav#navbar {
+  justify-content: end;
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
@@ -1265,6 +1268,9 @@ section#services .row {
 }
 header#header .container.d-flex.align-items-center {
   grid-template-columns: 1fr auto 1fr;
+}
+.fixed-top.header-scrolled .navbar a {
+  color: #fff;
 }
 }
 
