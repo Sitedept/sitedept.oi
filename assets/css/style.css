@@ -443,6 +443,38 @@ a:hover {
   border-radius: .3rem;
 }
 
+.main-button {
+  border: 2px solid #02adee;
+  border-radius: 64px;
+  -webkit-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transition: -webkit-transform .2s ease;
+  transition: -webkit-transform .2s ease;
+  transition: transform .2s ease;
+  transition: transform .2s ease,-webkit-transform .2s ease;
+  font-family: Made Outer Sans,sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 150%;
+  display: inline-block;
+}
+.main-button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.main-button-container {
+  position: relative;
+  left: 4px;
+  bottom: 4px;
+  padding: 16px 48px;
+  border-radius: 64px;
+  background: radial-gradient(circle, rgba(11,94,215,1) 28%, rgba(1,173,239,1) 78%);
+  color: #fff;
+}
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
