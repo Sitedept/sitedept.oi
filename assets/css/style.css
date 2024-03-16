@@ -1244,7 +1244,7 @@ section#services .row {
 .contact_btn {
   display: none;
 }
-.mob_show {
+.mob_head {
   display: block;
 }
 @media (min-width: 768px) {
@@ -1260,7 +1260,7 @@ section#services .row {
   .contact_btn { 
     display: block;
 }
-.mob_show {
+.mob_head {
   display: none;
 }
 header#header .container.d-flex.align-items-center {
