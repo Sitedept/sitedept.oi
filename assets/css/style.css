@@ -561,7 +561,7 @@ img.img-fluid.fixed_logo {
 }
 header#header .container.d-flex.align-items-center {
   display: grid!important;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 .contact_btn {
   text-align: right;
@@ -1262,6 +1262,9 @@ section#services .row {
 }
 .mob_show {
   display: none;
+}
+header#header .container.d-flex.align-items-center {
+  grid-template-columns: 1fr auto 1fr;
 }
 }
 
