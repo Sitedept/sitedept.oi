@@ -665,6 +665,12 @@ p.color-base {
   .navbar ul {
     display: none;
   }
+  #header .logo img {
+    max-height: 52px;
+}
+#header {
+  padding: 8px 0;
+}
 }
 
 .navbar-mobile {
