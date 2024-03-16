@@ -857,7 +857,8 @@ p.color-base {
   display: block;
 }
 .hero .hero-content {
-  top: 34%;
+  top: 28%;
+  height: auto;
 }
 
 }
