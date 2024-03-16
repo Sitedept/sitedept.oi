@@ -559,7 +559,10 @@ img.img-fluid.fixed_logo {
   white-space: nowrap;
   padding: 10px 18px 10px 18px;
 }
-
+header#header .container.d-flex.align-items-center {
+  display: grid!important;
+  grid-template-columns: 1fr auto 1fr;
+}
 .color-base {
   color: #03466e;
 }
