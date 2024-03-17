@@ -701,6 +701,9 @@ p.color-base {
 }
 
 @media (max-width: 991px) {
+  .hero-title br {
+    display: none;
+  }
   .navbar > ul > li {
     padding: 10px 10px 10px 10px;
 }
@@ -1267,9 +1270,7 @@ section#services .row {
   .contact_btn { 
     display: block;
 }
-.hero-title br {
-  display: none;
-}
+
 .mob_head {
   display: none;
 }
