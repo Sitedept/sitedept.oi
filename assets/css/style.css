@@ -701,6 +701,9 @@ p.color-base {
 }
 
 @media (max-width: 991px) {
+  .navbar > ul > li {
+    padding: 10px 10px 10px 10px;
+}
   .mobile-nav-toggle {
     display: block;
   }
