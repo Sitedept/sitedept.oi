@@ -1250,8 +1250,11 @@ section#services .row {
 .mob_head {
   display: block;
 }
+
+@media (max-width: 500px) {
 .hero-title br {
   display: none;
+}
 }
 
 @media (min-width: 768px) {
