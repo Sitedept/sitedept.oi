@@ -1256,6 +1256,9 @@ section#services .row {
 .mob_head {
   display: block;
 }
+.contact_btn .main-button {
+  font-size: 12px;
+}
 
 @media (min-width: 768px) {
   .testimonial-box .description {
