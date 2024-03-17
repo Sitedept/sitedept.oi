@@ -1266,7 +1266,9 @@ section#services .row {
     top: 116px;
     margin-bottom: 26px;
 }
-
+.col-md-3 {
+  width: 33.333%;
+}
 
 @media (min-width: 768px) {
   .testimonial-box .description {
