@@ -1279,6 +1279,9 @@ header#header .container.d-flex.align-items-center {
 .fixed-top.header-scrolled .navbar a {
   color: #fff;
 }
+.container, .container-lg, .container-md, .container-sm {
+  max-width: 1095px;
+}
 }
 
 @media (min-width: 1200px) {
