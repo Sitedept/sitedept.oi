@@ -1271,6 +1271,9 @@ section#services .row {
   margin-top: -1px;
   margin-bottom: -1px;
 }
+.white {
+  color: #fff;
+}
 
 @media (min-width: 768px) {
   .testimonial-box .description {
