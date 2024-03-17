@@ -1051,7 +1051,7 @@ section#services .row {
 .service-box .s-description {
   color: #4e4e4e;
 }
-.service-box:hover .ico-circle svg, .ico-circle svg path {
+.service-box:hover .ico-circle svg, .service-box:hover .ico-circle svg path {
   fill: #fff;
 }
 
