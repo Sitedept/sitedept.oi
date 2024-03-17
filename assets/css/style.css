@@ -1254,12 +1254,6 @@ section#services .row {
   display: block;
 }
 
-@media (max-width: 500px) {
-.hero-title br {
-  display: none;
-}
-}
-
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
@@ -1272,6 +1266,9 @@ section#services .row {
   }
   .contact_btn { 
     display: block;
+}
+.hero-title br {
+  display: none;
 }
 .mob_head {
   display: none;
