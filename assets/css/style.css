@@ -1052,7 +1052,7 @@ section#services .row {
   color: #4e4e4e;
 }
 .service-box:hover .ico-circle svg, .service-box:hover .ico-circle svg path {
-  fill: #fff;
+  fill: #fff!important;
 }
 
 .ico-circle svg {
