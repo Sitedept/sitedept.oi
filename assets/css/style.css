@@ -47,7 +47,7 @@ a:hover {
 }
 
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 29px 6px rgba(0, 0, 0, 0.1);
 }
 
 .box-shadow-a, .button:hover {
