@@ -1266,7 +1266,11 @@ section#services .row {
     top: 116px;
     margin-bottom: 26px;
 }
-
+.using_wave {
+  background: radial-gradient(circle, rgba(11,94,215,1) 28%, rgba(1,173,239,1) 78%);
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
 
 @media (min-width: 768px) {
   .testimonial-box .description {
