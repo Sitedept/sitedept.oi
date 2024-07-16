@@ -230,19 +230,18 @@
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
 
-  btnText.onclick = function() {
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read More..."; 
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read Less"; 
+  btnText.onclick = function(event) {
+    event.preventDefault(); 
+    if (moreText.style.display === "none") {
       moreText.style.display = "inline";
+      btnText.innerHTML = "Read Less"; 
+    } else {
+      moreText.style.display = "none";
+      btnText.innerHTML = "Read More..."; 
     }
   };
 });
+
