@@ -943,7 +943,9 @@ nav#navbar {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-
+.about_img img {
+  border-radius: 20px;
+}
 #more {display: none;}
 
 .about-mf .about-img {
